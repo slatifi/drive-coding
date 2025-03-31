@@ -1,0 +1,8 @@
+*.DS_Store
+*.swp
+
+# Ignore venvs
+*/.venv/
+
+# Ignore tex files
+*.tex

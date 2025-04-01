@@ -2,7 +2,12 @@
 *.swp
 
 # Ignore venvs
-*/.venv/
+**/venv/
 
 # Ignore tex files
 *.tex
+**/_minted-slides
+
+# Ignore scala builds
+**/.bsp
+**/.scala-build

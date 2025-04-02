@@ -16,6 +16,12 @@ Exercises 1-4 will run on any machine with Python >= 3.7. No extra packages are 
 
 Should you wish to run the code online instead, this [Python online IDE](https://www.online-python.com/) can be used.
 
+Each file has automated units tests for the exercises that automatically run with running the file, e.g. 
+
+```
+python3 lesson01-ex01.py
+```
+
 ---
 
 ### Functional programming extension

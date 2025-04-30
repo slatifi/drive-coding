@@ -1,33 +1,14 @@
-class Student:
-    def __init__(self, name, gender, age, position):
-        # attributes of Student
-        self.name = name
-        self.gender = gender
-        self.age = age
-        self.position = position
+# Define a class Student, that will receive as a parameter the name, gender, age and position.
+# Create the methods: 
+# - Introduce: which will print the student name and the age
+# - Study: which will print the message "I am studying"
+# - promote: this methods will receive the parameter 'new_position' and it will asign it to the student's new position
 
-    # methods of Student
-    def introduce(self):
-        """Prints a message introducing themselves
-        """
-        print(f"My name is {self.name} and I am {self.age}")
+# Instanciate the student with name: Sarah, gender: Female, age: 18 and position: 1st year and run the implemented methods.
 
-    def change_position(self, new_position: str):
-        """Assign the student a new position
-        """
-        self.position = new_position
-        print(f"My new position is {self.position}")
-    
-    def study(self):
-        """Prints a message of saying that the student is studying
-        """
-        print(f"I am studying")
+
 
 
 if __name__ == "__main__":
-
-    sarah = Student("Sarah", "Female", 18, "1st year")
-
-    sarah.introduce()
-    sarah.study()
-    sarah.change_position("2nd year")
+    # remove pass when you have implemented the class Student
+    pass
